@@ -1,0 +1,132 @@
+
+.side-bar{
+    width: 150px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #191718;
+}
+.side-bar ul{
+    display: inline-block;
+    width: 100%;
+    
+}
+.side-bar li {
+    width: 100%;
+    list-style: none;
+    border-bottom: #AAAAAA 0.5px solid;
+    
+}
+.side-bar  a{
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 14px;
+    padding-left: 16px;
+     padding-bottom: 11px;
+    color: #AAAAAA;
+}
+#main{
+    
+    margin-left: 150px;
+ }
+.container{
+    background-color: #fff;
+    height: 100%;
+    display: block;
+
+}
+.logo{
+    width: 310px;
+    height: 122px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+}
+.content{
+    display: block;
+    padding: 0 129px;
+}
+.content-header{
+    background-color: #EFEFEF;
+}
+.content-header h2{
+    display: block;
+    text-align: center;
+    padding-top: 38px;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+.content-header p{
+    display: block;
+    max-width: 972px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 38px;
+    line-height: 18.75px;
+}
+.content-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    margin-top: 40px;
+    padding-bottom: 182px;
+}
+.content-main .title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 18px;
+}
+.content-main .desc{
+    display: flex;
+    row-gap: 16px;
+    max-height: 128px;
+    max-width: 326px;
+
+}
+.content-main .desc p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    word-wrap:break-word ;
+
+}
+.content-main p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    word-wrap:break-word ;
+}
+footer{
+    width: 100%;
+    height: 79px;
+    border-top: 2px #DEDEDE solid;
+}
+footer span{
+   margin: 30px 129px;
+   padding-top: 30px;
+
+}
